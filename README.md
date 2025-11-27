@@ -1,2 +1,4 @@
 # ExMech
-The self-evolving experimental mechanician ExMech (combining a robotic platform and a multi-objective active learning framework) to discover discover lightweight, high-strength lattice
+The **Self-evolving Experimental Mechanician ExMech** project to discover lightweight, high-strength lattice materials, combining a robotic platform for “can do” (9 workstations for standardized experimental data generation) and a multi-objective active learning framework for “can think” (guiding directional exploration through evolving structure-property understanding).
+
+In this repository, the code for the control and communication of the robotic platform (including 9 workstations) has been provided, as well as the complete pipeline and the optimization algorithm (multi-objective active learning) for the ExMech. Additionally, the code used for data analysis, such as the calculation of the non-dominated solution set and SHAP analysis, has also been provided along with test data.
