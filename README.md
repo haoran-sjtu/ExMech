@@ -6,7 +6,7 @@ In this repository, the code required for the autonomous operation of ExMech, as
 - The code for data analysis, such as the calculation of the non-dominated solution set and SHAP analysis, has also been provided along with test data.
 - The code for parametric modeling of plate lattices, including two kinds of specimens.
 ## Requirements
-- Python 3.7 or higher
+- Python 3.7 
 #### Main libraries for ExMech operation 
 - pyrealsense2
 - cv2
@@ -33,4 +33,8 @@ In this repository, the code required for the autonomous operation of ExMech, as
 - caeModules
 - driverUtils
 - abaqusConstants
+## Instruction Notes
+- Ensure the input files are correctly formatted for the script to function properly.
+- Ensure all necessary directories and files are present before running the script.
+- Necessary example input (.xlsx) files are included in their respective directories.
 
