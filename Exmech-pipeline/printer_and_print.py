@@ -46,10 +46,10 @@ class printer:
         header = {'Content-Type': 'application/x-www-form-urlencoded'}
         payload = {
             'grant_type': 'password',
-            'client_id': '0Qgg7tKtiLBl9oT5OzDhg4D40Fs3GMmFNo7owcSq',
-            'client_secret': 'I9Ydzv0aRmg0HhXrb8FagU1Jw41oowSWWNwSZ7jsht5sM0nadycwVtO78ZqOaP7AWIkcbRQaGHQbNPe5eXeA4uFa1QYDikvSbxxzr2MahwzTTnv8A0pwIusbQj10IZOS',
-            'username': 'tiantian',
-            'password': '19991225LIFE'
+            'client_id': 'xxxxxxxx',
+            'client_secret': 'xxxxxxxxxxxxxxx',
+            'username': 'xxxxxx',
+            'password': 'xxxxxxxxxx'
         }
         res = requests.post(url, headers=header, data=payload)
         token_byte = res.content
